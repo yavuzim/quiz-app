@@ -1,0 +1,52 @@
+[
+  {
+    "text": "Osmanlı İmparatorluğu'nun kuruluş yılı hangisidir?",
+    "options": ["1299", "1453", "1071", "1517"],
+    "correct": 0
+  },
+  {
+    "text": "İstanbul'un fethi hangi yılda gerçekleşmiştir?",
+    "options": ["1354", "1453", "1571", "1481"],
+    "correct": 1
+  },
+  {
+    "text": "Türkiye Cumhuriyeti hangi tarihte ilan edilmiştir?",
+    "options": ["1919", "1920", "1922", "1923"],
+    "correct": 3
+  },
+  {
+    "text": "I. Dünya Savaşı hangi yıllar arasında gerçekleşmiştir?",
+    "options": ["1905-1909", "1914-1918", "1939-1945", "1910-1915"],
+    "correct": 1
+  },
+  {
+    "text": "Fransız Devrimi hangi yılda başlamıştır?",
+    "options": ["1776", "1789", "1804", "1815"],
+    "correct": 1
+  },
+  {
+    "text": "Amerika'nın keşfi hangi yılda gerçekleşmiştir?",
+    "options": ["1453", "1492", "1517", "1571"],
+    "correct": 1
+  },
+  {
+    "text": "Anadolu Selçuklu Devleti'nin kurucusu kimdir?",
+    "options": ["Alparslan", "Süleyman Şah", "Kılıçarslan", "Melikşah"],
+    "correct": 1
+  },
+  {
+    "text": "Fatih Sultan Mehmet kaç yaşında tahta çıkmıştır?",
+    "options": ["19", "21", "25", "30"],
+    "correct": 0
+  },
+  {
+    "text": "Ankara Savaşı hangi yılda gerçekleşmiştir?",
+    "options": ["1396", "1402", "1415", "1453"],
+    "correct": 1
+  },
+  {
+    "text": "II. Dünya Savaşı'nın bitiş tarihi hangisidir?",
+    "options": ["1943", "1944", "1945", "1946"],
+    "correct": 2
+  }
+]
