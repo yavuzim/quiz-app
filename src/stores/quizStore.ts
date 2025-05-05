@@ -8,7 +8,7 @@ export const useQuizStore = defineStore('quiz', {
     score: 0,
     finished: false,
     questions: questions,
-    answerClass: "",  // Yanıtın stilini tutacak property
+    answerClass: "",
   }),
   actions: {
     selectAnswer(index: number) {
@@ -19,15 +19,14 @@ export const useQuizStore = defineStore('quiz', {
         this.score++;
       }
 
-      // 3 saniye bekledikten sonra soruyu değiştir
       setTimeout(() => {
         if (this.currentIndex < this.questions.length - 1) {
           this.currentIndex++;
         } else {
           this.finished = true;
         }
-        this.answerClass = "";  // Yanıt stilini sıfırla
-        this.selected = null;  // Seçimi sıfırla
+        this.answerClass = "";
+        this.selected = null;
       }, 2000);
     },
 
@@ -36,7 +35,7 @@ export const useQuizStore = defineStore('quiz', {
       this.selected = null
       this.score = 0
       this.finished = false
-      this.answerClass = "";  // Stil sıfırlama
+      this.answerClass = "";
     }
   }
 })

@@ -5,11 +5,9 @@ import {useQuizStore} from "@/stores/quizStore.ts"
 const quizStore = useQuizStore();
 const questionNumber = ref()
 const question = ref()
-console.log("Question: ",quizStore.questions);
 watch(()=>quizStore.currentIndex, () => {
   questionNumber.value = quizStore.currentIndex
   question.value = quizStore.questions[quizStore.currentIndex].text
-console.log("quizStore.currentIndex : ",quizStore.currentIndex);
 }, {immediate: true})
 
 </script>

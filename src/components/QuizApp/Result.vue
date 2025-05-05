@@ -6,8 +6,8 @@ import {useQuizStore} from "@/stores/quizStore.ts"
 const quizStore = useQuizStore();
 const score = ref();
 watch(() => quizStore.currentIndex, () => {
-  score.value = quizStore.currentIndex+1
-},{immediate: true})
+  score.value = quizStore.currentIndex + 1
+}, {immediate: true})
 </script>
 <template>
   <div class="card flex justify-center" style="user-select: none;">
